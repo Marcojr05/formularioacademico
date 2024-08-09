@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Geral</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <h2>Dados pessoais</h2>
+    <form>
+        <label for="fnome">Nome completo:</label><br>
+        <input type="text" id="fnome" name="fnome"><br>
+        <br>
+        <label for="lprofissao">Profissão:</label><br>
+        <select name="lprofissao" id="lprofissao">
+            <option value="ti">TI</option>
+            <option value="engenheiro">Engenheiro</option>
+            <option value="medico">Médico</option>
+         </select>
+    </form>
+    <hr>
+    <h2>Localização</h2>
+    <form>
+        <label for="femail">E-mail:</label><br>
+        <input type="text" id="femail" name="femail"><br>
+        <br>
+        <label for="lrua">Rua:</label><br>
+        <input type="text" id="lrua" name="lrua">
+    </form>
+    <hr>
+    <form>
+        <h2>Faixa etária</h2>
+        <br>
+        <input type="radio" id="lfaixa" name="faixa" value="lfaixa">
+        <label for="faixa">até 20 anos</label><br>
+        <input type="radio" id="lfaixa" name="faixa" value="lfaixa">
+        <label for="faixa">mais de 20 até 30 anos</label><br>
+        <input type="radio" id="lfaixa" name="faixa" value="lfaixa">
+        <label for="faixa">mais de 30 até 40 anos</label><br>
+        <input type="radio" id="lfaixa" name="faixa" value="lfaixa">
+        <label for="faixa">mais de 40 até 50 anos</label><br>
+        <input type="radio" id="lfaixa" name="faixa" value="lfaixa">
+        <label for="faixa">mais de 50 até 60 anos</label><br>
+        <input type="radio" id="lfaixa" name="faixa" value="lfaixa">
+        <label for="faixa">mais de 60</label>
+    </form>
+    <hr>
+    <form>
+        <br>
+        <h2>Esportes que prática</h2>
+        <br>
+        <input type="checkbox" id="esport" name="lesport" value="esport">
+        <label for="lesport"> Futebol de campo</label><br>
+        <input type="checkbox" id="esport" name="lesport" value="esport">
+        <label for="lesport">Futebol de salão</label><br>
+        <input type="checkbox" id="esport" name="lesport" value="esport">
+        <label for="lesport">Futebol society</label><br>
+        <input type="checkbox" id="esport" name="lesport" value="esport">
+        <label for="lesport">volley de quadra</label><br>
+        <input type="checkbox" id="esport" name="lesport" value="esport">
+        <label for="lesport">Natação em piscina</label><br>
+        <input type="checkbox" id="esport" name="lesport" value="esport">
+        <label for="lesport">Natação em mar aberto</label>
+      </form>
+      <hr>
+      <br>
+      <h2>Comentário</h2>
+      <label for="observacoes">Mensagem:</label><br>
+  
+      <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea>
+      <br>
+      <input type="button"value="Enviar">
+      <input type="button"value="Limpar">
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestão Acadêmica</title>
+</head>
+<body>
+    <h1>SITEMA DE GESTÃO ACADÊMICA</h1>
+    <h2>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h2>
+    <form>
+        <label for="flogin">Login</label>
+        <input type="text" id="flogin" name="flogin"><br>
+        <br>
+        <label for="lsenha">Senha</label>
+        <input type="text" id="lsenha" name="lsenha">
+    </form>
+    <br>
+    <label for="status">Status</label>
+
+    <select name="status" id="status">
+        <option value="ativo">Ativo</option>
+        <option value="inativo">Inativo</option>
+     </select>
+    
+    <form>
+        <br>
+        <label for="tipo">Tipo</label>
+        <input type="radio" id="ltipo" name="tipo" value="ltipo">
+        <label for="tipo">Técnico</label>
+        <input type="radio" id="ltipo" name="tipo" value="ltipo">
+        <label for="tipo">Professor</label>
+        <input type="radio" id="ltipo" name="tipo" value="ltipo">
+        <label for="tipo">Aluno</label>
+    </form>
+
+    <form>
+        <br>
+        <label for="fdata_criacao">Data Criação</label>
+        <input type="date" id="fdata_criacao" name="fdata_criacao">
+    </form>
+
+    <form>
+        <br>
+        <label for="perfil">Perfil</label>
+        <input type="radio" id="lperfil" name="perfil" value="lperfil">
+        <label for="perfil">Convidado</label>
+        <input type="radio" id="lperfil" name="perfil" value="lperfil">
+        <label for="perfil">Administrador</label>
+    </form>
+    <br>
+    <label for="observacoes">Observações</label><br>
+
+    <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea>
+
+    <form>
+        <br>
+        <label for="modulo">Módulos</label><br>
+        <br>
+        <input type="checkbox" id="lmodulo" name="modulo" value="lmodulo">
+        <label for="modulo"> Compras</label>
+        <input type="checkbox" id="lmodulo" name="modulo" value="lmodulo">
+        <label for="modulo">Biblioteca</label>
+        <input type="checkbox" id="lmodulo" name="modulo" value="lmodulo">
+        <label for="modulo">Acadêmico</label><br>
+        <br>
+        <input type="checkbox" id="lmodulo" name="modulo" value="lmodulo">
+        <label for="modulo">Documentação</label>
+        <input type="checkbox" id="lmodulo" name="modulo" value="lmodulo">
+        <label for="modulo">Recursos Humanos</label>
+      </form>
+    <br>
+    <input type="button"value="Cadastrar">
+    <input type="button"value="Excluir">
+
+</body>
+</html>
